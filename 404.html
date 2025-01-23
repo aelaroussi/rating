@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#000000" />
+		<meta name="description" content="404 - Page Not Found" />
+		<title>Search Engine Rating | 404 - Page Not Found</title>
+
+		<!-- Favicon -->
+		<link rel="icon" href="favicon.ico" />
+
+		<!-- External Styles -->
+		<link rel="stylesheet" href="index.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+			rel="stylesheet" />
+
+		<!-- Internal Styles -->
+		<style>
+			* {
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+			}
+
+			:root,
+			html,
+			body {
+				height: 100%;
+			}
+
+			body {
+				font-family: 'Roboto', sans-serif;
+				padding: 16px;
+				text-align: center;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			h1 {
+				color: #1a73e8;
+				font-size: 3rem;
+			}
+
+			p {
+				margin: 16px 0;
+				color: #555;
+			}
+
+			a {
+				user-select: none;
+				cursor: pointer;
+				-webkit-user-drag: none;
+				text-decoration: none;
+				color: white;
+				background-color: #1a73e8;
+				padding: 8px 16px;
+				border-radius: 4px;
+				display: inline-block;
+				font: inherit;
+				border: none;
+				font-size: 13px;
+			}
+
+			a:hover,
+			a:focus {
+				outline: 1px solid #1a73e8;
+				outline-offset: 1px;
+				transition: outline-width 0.05s ease-in-out;
+			}
+
+			a:active {
+				outline-width: 2px;
+			}
+
+			::selection {
+				background-color: #1a73e8;
+				color: #fff;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="root">
+			<h1>404</h1>
+			<p id="404ErrorMessage">Sorry, an error occurred.</p>
+			<nav>
+				<a href="/rating">Go Back to the Home Page</a>
+			</nav>
+		</div>
+	</body>
+</html>
