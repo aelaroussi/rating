@@ -63,6 +63,13 @@ button:active {
 	outline-width: 2px;
 }
 
+button:disabled {
+	background-color: #ccc;
+	outline: none;
+	border: none;
+	cursor: not-allowed;
+}
+
 .submitTaskButton {
 	margin-left: 16px;
 }
