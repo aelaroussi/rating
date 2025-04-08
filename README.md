@@ -10,7 +10,7 @@ A simple React application simulating a rating platform with tasks and locales. 
 
 ## Deployment
 
-This project is hosted using GitHub Pages at [https://elaroussi.net/rating](https://elaroussi.net/rating).
+This project is hosted using GitHub Pages at [https://elaroussi.online/rating](https://elaroussi.online/rating).
 
 ## License
 
